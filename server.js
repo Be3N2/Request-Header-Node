@@ -55,7 +55,7 @@ function parseSoftware (softString) {
 
 function parseIp (ip) { 
 
-  //example ip ::ffff:127.0.0.1
+  //example ip ::ffff:78.198.31.159
   
   let returnIp = '';
   let hitNum = false;
