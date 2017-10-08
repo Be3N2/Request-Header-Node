@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Request Header Parser</title>
+    <meta name="description" content="Returns info about user based on browser.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+
+
+    <main>
+      <h1> 
+        Request Header Parser
+      </h1>
+      
+      <hr>
+      <p>
+        Simple web api that returns data on the user calling the get request. 
+      </p>
+      <p>
+        To use add /whoami to this page's url for the request and you <br>
+        will recieve a simple json file that looks something like this:
+      </p>
+      <p>
+        {"ipaddress": "127.0.0.1",  "language": "en-US",  "software": "Windows NT 10.0; Win64; x64"}
+      </p>
+      <br>
+      <p>
+        Here is the general call:
+      </p>
+      <p><a href="https://basicuserdata.glitch.me/whoami">
+        https://basicuserdata.glitch.me/whoami
+      </a></p>
+      <hr>
+      <br>
+    </main>
+
+    <footer>
+      Made by Ben Wakefield for <a href="https://www.freecodecamp.org/be3n2">Freecodecamp</a>. More info on <a href="https://github.com/Be3N2">Github</a>.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
